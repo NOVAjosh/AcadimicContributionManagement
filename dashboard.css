@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A82626;
+    color: #fff;
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: linear-gradient(0deg,rgba(0,0,0,.25),#000);
+    border-bottom: 1px solid #ccc;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: #A82626;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.logout-form {
+    display: flex;
+    align-items: center;
+}
+
+.logout-form input[type="submit"] {
+    background: linear-gradient(0deg,rgba(0,0,0,.25),grey);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.logout-form input[type="submit"]:hover {
+    background-color: #d32f2f;
+}
+table {
+border-collapse: collapse;
+width: 100%;
+margin-bottom: 20px;
+}
+thead {
+
+background-color:  grey;
+font-weight: bold;
+}
+th, td {
+text-align: left;
+padding: 8px;
+border: 1px solid #ddd;
+}
+th:first-child, td:first-child {
+width: 10%;
+}
+th:nth-child(2), td:nth-child(2) {
+width: 40%;
+}
+th:last-child, td:last-child {
+width: 20%;
+}
+p {
+margin-bottom: 20px;
+}
